@@ -4,7 +4,7 @@
 
 	<groupId>me.gabriel</groupId>
 	<artifactId>release-demo-1</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.8</version>
 	<packaging>jar</packaging>
 
 	<name>release-demo-1</name>
@@ -49,7 +49,8 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/gabriel-medina/release-demo-1.git</developerConnection>
-	</scm>
+	  <tag>v0.0.8</tag>
+  </scm>
 
 	<build>
 		<plugins>
